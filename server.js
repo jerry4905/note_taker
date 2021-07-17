@@ -31,6 +31,22 @@ app.get("*", function(req, res) {
     res.sendFile(path.join(__dirname, "public/index.html"));
 });
 
+app.delete("/api/notes/:id", function (req, res) {
+    id = req.params.id;
+    
+    fs.readFile("./db/db.json", "utf8", function (error, data) {
+        if (error) {
+            return console.log(error);
+        }
+        
+        jsonData = JSON.parse(data);
+        jsonData.splice(id - 1, 1);
+        jsonData.map((noteObject, i) => noteObject.id = i + 1);
+        noteData = jsonData;
+        writeJSONfile(jsonData, res);
+    });
+});
+
 function writeJSONfile(jsonArray, res) {
     fs.writeFile("./db/db.json", JSON.stringify(jsonArray), function () {
         res.json(jsonArray);
