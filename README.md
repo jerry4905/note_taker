@@ -1,7 +1,6 @@
-
-  # readme node project /n
+# Note Taker /n
   ## Description 
- node js that creates a readme in md
+ An applicaiton that allows users to save notes with a title and body section and keep them listed and displayed on applciaiton. Also allows user to edit and delete previously saved notes to clean up list. 
   ## Table of Contents 
 * [Installation](#Installation)
 * [Usage](#Usage)
@@ -11,19 +10,16 @@
 * [Tests](#Tests)
 * [Questions](#Questions)
   ## Installation 
-* run npm i
-* run node index.js
   ## Usage 
- node applciaiton that helps create an informative readme 
+ access applciaiotn deployed on heroku at https://young-escarpment-33836.herokuapp.com/notes . once open can proceed to add, edit and remove notes. 
   ## License 
- mit
-  ## Contributing 
- 
+ MIT
+  
   ## Badges 
- ![languages badge](https://img.shields.io/github/languages/top/jerry4905/readme simulator)
+ ![languages badge](https://img.shields.io/github/languages/top/Jerry4905/Note_taker)
   ## Tests 
- no
+ No test 
   ## Questions 
- For any questions, contact me at [jerry4905@hotmsil.com](mailto:jerry4905@hotmsil.com).
+ For any questions, contact me at [Jerry4905@yahoo.com](mailto:Jerry4905@yahoo.com).
   
   
