@@ -1,4 +1,7 @@
 # Note Taker /n
+
+<img width="1440" alt="note taker screenshot" src="https://user-images.githubusercontent.com/81401217/126027025-06b3857e-0876-42b6-9e5e-a32a9fd824f0.png">
+
   ## Description 
  An applicaiton that allows users to save notes with a title and body section and keep them listed and displayed on applciaiton. Also allows user to edit and delete previously saved notes to clean up list. 
   ## Table of Contents 
